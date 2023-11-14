@@ -18,8 +18,14 @@ main {
     height: 50vh; /* Adjust the height as needed */
 }
 
+#media-container {
+    width: 100%; /* Set a maximum width */
+}
+
 #media-container img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  position: relative;
+  top: 210px;
 }
 
